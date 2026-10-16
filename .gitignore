@@ -1,0 +1,16 @@
+# Python environments and cache
+.venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and local configuration
+.env
+
+# Generated reports: keep the synthetic portfolio example in Git
+outputs/*.xlsx
+!outputs/membership_analytics_report.xlsx
+outputs/*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
